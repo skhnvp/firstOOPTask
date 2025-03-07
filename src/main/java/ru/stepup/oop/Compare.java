@@ -12,6 +12,6 @@ public class Compare {
     public void doCompare() {
         System.out.println("First point: " + p1 +
                 "\nSecont point: " + p2 +
-                "\nResult: " + (p1.getX() == p2.getX() && p1.getY() == p2.getY()));
+                "\nResult: " + (p1.equals(p2)));
     }
 }

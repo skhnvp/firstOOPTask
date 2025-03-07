@@ -15,8 +15,8 @@ package ru.stepup.oop;
 
 public class Main {
     public static void main(String[] args) {
-        Compare c1 = new Compare(1,2,1,2);
-        Compare c2 = new Compare(1,3,3,3);
+        Compare c1 = new Compare(1, 2, 1, 2);
+        Compare c2 = new Compare(1, 2, 2, 2);
 
         c1.doCompare();
         c2.doCompare();
