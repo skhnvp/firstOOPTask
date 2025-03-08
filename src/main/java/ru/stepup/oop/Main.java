@@ -15,10 +15,16 @@ package ru.stepup.oop;
 
 public class Main {
     public static void main(String[] args) {
-        Compare c1 = new Compare(1, 2, 1, 2);
-        Compare c2 = new Compare(1, 2, 2, 2);
+        Point p1 = new Point(1,3);
+        Point p2 = new Point(1,3);
+        Point p3 = new Point(5,8);
 
-        c1.doCompare();
-        c2.doCompare();
+        System.out.println(p1.equals(p2) && p1.equals(p3));
+
+        Point p4 = new Point(1,3);
+        Point p5 = new Point(1,3);
+        Point p6 = new Point(1,3);
+
+        System.out.println(p4.equals(p5) && p4.equals(p6));
     }
 }
