@@ -3,7 +3,7 @@ package ru.stepup.oop;
 public class Point {
 
     private int xyi;
-    private int xy01234567;
+    private int xy012345678;
     private int x;
     private int y;
 
