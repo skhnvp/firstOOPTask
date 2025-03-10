@@ -1,6 +1,8 @@
 package ru.stepup.oop;
 
 public class Point {
+
+    private int xyi;
     private int x;
     private int y;
 
